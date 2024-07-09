@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  padding: 0 20px;
+}
+
+.main-container {
+  padding: 30px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.texts h1 {
+  color: hsl(0, 0%, 59%);
+  margin-bottom: 20px;
+  font-weight: 300;
+  padding: 50px 0 20px;
+}
+
+.texts span {
+  color: black;
+  font-weight: 700;
+}
+
+.texts p {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+.email-form {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  /* justify-content: center; */
+  width: 100%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  width: 100%;
+  position: relative;
+}
+
+.input {
+  font-size: 16px;
+  color: black;
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  padding-left: 20px;
+  border: 2px solid hsl(223, 100%, 88%);
+}
+
+.error {
+  position: absolute;
+}
+
+.input::placeholder {
+  color: hsl(223, 100%, 88%);
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.error {
+  display: none;
+  color: red;
+  font-size: 10px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.btn {
+  background-color: hsl(223, 87%, 63%);
+  width: 195px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  margin: 0;
+  color: white;
+  font-size: 12px;
+  line-height: 1.5rem;
+  box-shadow: 0px 0px 20px hsla(223, 87%, 63%, 0.32);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: hsl(223, 87%, 63%, 80%);
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.icons {
+  display: flex;
+  gap: 5px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.icons li {
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  color: hsl(223, 87%, 63%);
+  font-size: 16px;
+}
+
+.icons li:hover {
+  color: white;
+  background-color: hsl(223, 87%, 63%);
+}
+
+.social p {
+  margin-top: 5px;
+  color: hsl(0, 0%, 59%);
+}
